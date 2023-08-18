@@ -1,0 +1,8 @@
+spring:
+    data:
+        mongodb:
+            uri: ${MONGODB_CONNECTION_STRING:mongodb://localhost:27017}
+            database: ${MONGODB_DATABASE:Items}
+
+server:
+    port: 8082
